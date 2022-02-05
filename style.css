@@ -1,0 +1,61 @@
+body{
+    margin: 5px;
+  color: aliceblue;
+    background-image:url(./image/bh3.png) ;
+}
+
+.pic1{
+    float: right;
+    border-radius: 50%;
+    margin-top: 85px;
+}
+header{
+    font-size: 28px;
+    width: 970px;
+    margin: 0 auto;
+    padding: 30px;
+}
+#btn1{
+    background-color: purple;
+    color: white;
+}
+#btn2{
+    background-color: turquoise;
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -50px;
+    margin-top: 50%;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #about {
+    top: 20px;
+    background-color: #04AA6D;
+  }
+  
+  #blog {
+    top: 80px;
+    background-color: #2196F3;
+  }
+  
+  #projects {
+    top: 140px;
+    background-color: #f44336;
+  }
+  
+  #contact {
+    top: 200px;
+    background-color: #555
+  }
